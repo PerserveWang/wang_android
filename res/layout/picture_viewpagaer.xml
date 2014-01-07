@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.trends.photoalbum.view.HackyViewPager
+        android:id="@+id/picture_viewPager_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" >
+    </com.trends.photoalbum.view.HackyViewPager>
+
+    <LinearLayout
+        android:id="@+id/pic_viewpager_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/pic_item_share_iv_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/viewpager_share_switch_selector" />
+
+        <ImageView
+            android:id="@+id/pic_item_play_iv_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/viewpager_display_switch_selector" />
+    </LinearLayout>
+
+</RelativeLayout>

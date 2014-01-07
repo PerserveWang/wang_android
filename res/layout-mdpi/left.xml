@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mlist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bacgroud" >
+
+    <RelativeLayout
+        android:layout_width="450px"
+        android:layout_height="wrap_content"
+        android:background="@color/bacgroud"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/left_R"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bac_title"
+            android:padding="10dip" >
+
+            <TextView
+                android:id="@+id/grade_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/shop"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/left_L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/left_R"
+            android:layout_marginLeft="3dip"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="3dip"
+            android:background="@color/bacgroud"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/shop_about"
+                android:layout_width="225px"
+                android:layout_height="200px"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1"
+                android:background="@drawable/about_slecte" />
+
+            <ImageButton
+                android:id="@+id/new_activity"
+                android:layout_width="225px"
+                android:layout_height="200px"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/new_activity_slecte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/left_L1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/left_L"
+            android:layout_marginLeft="3dip"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="3dip"
+            android:background="@color/bacgroud"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/recommend"
+                android:layout_width="225px"
+                android:layout_height="200px"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1"
+                android:background="@drawable/recommend_slecte" />
+
+            <ImageButton
+                android:id="@+id/share"
+                android:layout_width="225px"
+                android:layout_height="200px"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/share_slecte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/left_L2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/left_L1"
+            android:layout_marginLeft="3dip"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="3dip"
+            android:background="@color/bacgroud"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/gread"
+                android:layout_width="225px"
+                android:layout_height="200px"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1"
+                android:background="@drawable/gread_slecte" />
+
+            <ImageButton
+                android:id="@+id/call"
+                android:layout_width="225px"
+                android:layout_height="200px"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/call_slecte" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/left_L2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dip" >
+
+            <ImageView
+                android:id="@+id/logo_iv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/logo_web_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logo_iv_id"
+                android:text="@string/helanduo_web"
+                android:textColor="#009ad6"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

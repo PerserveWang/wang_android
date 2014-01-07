@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="plantes">
+        <item>请选择</item>
+        <item>婚纱摄影</item>
+        <item>亲子摄影</item>
+        <item>个性写真</item>
+    </string-array>
+</resources>

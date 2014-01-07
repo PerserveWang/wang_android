@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:id="@+id/pic_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.trends.photoalbum.view.MyScrollView
+            android:id="@+id/waterfall_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/waterfall_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.trends.photoalbum.view.MyScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_bar_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/first_title"
+        android:padding="7dp" >
+
+        <ImageView
+            android:id="@+id/sliding_switch_iv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/sliding_swtich_selector" />
+
+        <ImageView
+            android:id="@+id/play_switch_column_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/play_switch_iv_id"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@id/play_switch_iv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/display_switch_selector" />
+    </RelativeLayout>
+
+</RelativeLayout>

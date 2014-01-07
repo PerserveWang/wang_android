@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacgroud"
+    tools:context = "com.trends.photoalbum.activity.New_Activity" >
+
+    <RelativeLayout
+        android:id="@+id/new_activity_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bac_title" >
+
+        <Button
+            android:id="@+id/new_activity_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/new_activity"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/new_activity_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/tel" />
+    </RelativeLayout>
+<com.trends.photoalbum.activity.RefreshableView  
+        android:id="@+id/refreshable_view" 
+        android:layout_below="@id/new_activity_title" 
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" >  
+    <ListView
+        android:id="@+id/new_activity_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dip" >
+    </ListView>
+    </com.trends.photoalbum.activity.RefreshableView>
+</RelativeLayout>

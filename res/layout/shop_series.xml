@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/bacgroud">
+	<ListView 
+	    android:id="@+id/shop_seeries_lv"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/shop_about_title"
+	    android:background="@color/bacgroud"
+	    android:layout_marginTop="5dip">
+	    
+	</ListView>
+</RelativeLayout>

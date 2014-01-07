@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacgroud" >
+
+    <RelativeLayout
+        android:id="@+id/grade_R1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bac_title" >
+
+        <TextView
+            android:id="@+id/new_activity_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/grade"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/grade_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gread_RS1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grade_R1"
+        android:background="@drawable/ratingbar_bac" >
+
+        <ImageView
+            android:id="@+id/text_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_bac" />
+
+        <RatingBar
+            android:id="@+id/grade_ratingBar1"
+            style="@style/roomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text_img"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:layout_toRightOf="@+id/text_img"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/grade_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="39dp"
+            android:text="@string/cameraman"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gread_RS2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gread_RS1"
+        android:layout_marginTop="3dip"
+        android:background="@drawable/ratingbar_bac" >
+
+        <ImageView
+            android:id="@+id/text_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_bac" />
+
+        <RatingBar
+            android:id="@+id/grade_ratingBar2"
+            style="@style/roomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:layout_toRightOf="@+id/text_img2"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/grade_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="39dp"
+            android:text="@string/dresser"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gread_RS3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gread_RS2"
+        android:layout_marginTop="3dip"
+        android:background="@drawable/ratingbar_bac" >
+
+        <ImageView
+            android:id="@+id/text_img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_bac" />
+
+        <RatingBar
+            android:id="@+id/grade_ratingBar3"
+            style="@style/roomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:layout_toRightOf="@+id/text_img3"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/grade_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="39dp"
+            android:text="@string/effect"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gread_RS4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gread_RS3"
+        android:layout_marginTop="3dip"
+        android:background="@drawable/ratingbar_bac" >
+
+        <ImageView
+            android:id="@+id/text_img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_bac" />
+
+        <RatingBar
+            android:id="@+id/grade_ratingBar4"
+            style="@style/roomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:layout_toRightOf="@+id/text_img4"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/grade_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="39dp"
+            android:text="@string/service"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_grade_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dip"
+        android:background="@drawable/submit" />
+
+    <LinearLayout
+        android:id="@+id/gread_tel_L"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_grade_send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dip"
+        android:layout_marginTop="7dip"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/gread_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:hint="@string/gread_telphone"
+            android:background="@drawable/gread_tel_bac"
+            android:phoneNumber="true"
+            android:maxLength="11"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/satisfaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gread_RS4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/satisfaction"
+        android:textColor="@color/recommend_bac"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/gread_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gread_tel_L"
+        android:layout_below="@+id/satisfaction"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/gread_gread"
+        android:gravity="top"
+        android:maxLines="5"
+        android:hint="@string/gread_greadtext"
+        android:lines="7" >
+    </EditText>
+
+</RelativeLayout>

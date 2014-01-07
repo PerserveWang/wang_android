@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">乐乐</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="new_activity">最新活动</string>
+    <string name="shop_about">套细</string>
+    <string name="panker"><u>盘客天下</u></string>
+    <string name="pow_panker">盘客天下</string>
+    <string name="power">Powered by</string>
+    <string name="shop">吴刚婚纱摄影</string>
+    <string name="invate">爱秀相册</string>
+    <string name="share_app">我正在用爱秀相册APP浏览儿童电子相册，快来下载欣赏更多他们的照片吧~http://www.panker.cn/android/album.apk</string>
+    <string name="call_panker">010-69512786</string>
+    <string name="call_tel">010-69512786</string>
+    <string name="noshare_text">您的手机目前没有安装这个软件！</string>
+    <string name="error_message_file_not_fount">文件没有找到</string>
+    <string name="prompt_network_not_available">网络异常，请检查您的网络</string>
+    <string name="sina_weibo">新浪微博</string>
+    <string name="wei_chat_friendline">微信</string>
+    <string name="email_share">邮件</string>
+    <string name="grade">摄影评分</string>
+    <string name="cameraman">摄影师</string>
+    <string name="dresser">化妆师</string>
+    <string name="effect">拍摄效果</string>
+    <string name="service">服务态度</string>
+    <string name="recommend">推荐好友</string>
+    <string name="ok">提交成功</string>
+    <string name="yiyou">已有</string>
+    <string name="personrecommend">人推荐</string>
+    <string name="recommend_name">称呼:</string>
+    <string name="recommend_telphone">电话:</string>
+    <string name="recommend_type">类型:</string>
+    <string name="recommend_sex">女士/先生</string>
+    <string name="recommend_recommend"> 现在起，老顾客推荐拍摄5000元以上的套系，即可获得精美礼品一份，而老顾客推荐的好友可获得8~9折的优惠。</string>
+    <string name="satisfaction">各项最低为1颗星，满意请给5颗星</string>
+    <string name="weibo">分享微博</string>
+    <string name="friends">微信朋友圈</string>
+    <string name="weixin">微信好友</string>
+    <string name="qq">QQ</string>
+    <string name="email">邮件</string>
+    <string name="more">更多</string>
+    <string name="picture_viewpager_share">来欣赏我们的app吧</string>
+    <string name="introduce">盘客天下致力于为企业和个人打造专属的ios与Android版手机、 平板应用，并提供应用发布、市场推广和日常运营等整套解决方案。无需编程能力和架设服务器，就可以制作运营您的专属APP。</string>
+    <string name="advantage">我们的优势</string>
+    <!-- 半角：\u3000 全角：\u3000 -->
+    <string name="advantage1">\u3000\u3000快速搭建：5天给您一个惊喜</string>
+    <string name="advantage2">\u3000\u3000模版丰富：20余种界面风格</string>
+    <string name="advantage3">\u3000\u3000操作流畅：用户体验友好</string>
+    <string name="advantage4">\u3000\u3000运行稳定：各配置机型崩溃率低</string>
+    <string name="advantage5">\u3000\u3000安全可靠：采用阿里云存储服务</string>
+    <string name="panker_name">详情请访问盘客官网</string>
+    <string name="panker_web"><u>www.panker.cn</u></string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="gread_telphone">&#160;请输入您的电话号码~</string>
+    <string name="gread_greadtext">&#160;把你对影楼的感受告诉我们吧~</string>
+    <string name="helanduo_web"><u>www.hollandermilk.com</u></string>
+    <string name="helanduo_web_url">http://www.hollandermilk.com</string>
+
+</resources>

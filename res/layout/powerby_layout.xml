@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacgroud" >
+      <RelativeLayout
+        android:id="@+id/powerby_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bac_title" >
+
+        <Button
+            android:id="@+id/powerby_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pow_panker"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/introduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/powerby_title"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/introduce"
+        android:textColor="@color/about_color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/own_advantage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/introduce"
+        android:layout_below="@+id/introduce"
+        android:layout_marginTop="10dp"
+        android:text="@string/advantage"
+        android:textColor="@color/about_color"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/own_advantage"
+        android:layout_alignRight="@+id/introduce"
+        android:layout_below="@+id/own_advantage"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/advantage1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/advantage1"
+            android:textColor="@color/about_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/advantage2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/advantage2"
+            android:textColor="@color/about_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/advantage3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/advantage3"
+            android:textColor="@color/about_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/advantage4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/advantage4"
+            android:textColor="@color/about_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/advantage5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/advantage5"
+            android:textColor="@color/about_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/panker_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/panker_name"
+        android:textColor="@color/about_color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/panker_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panker_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/panker_web"
+        android:textColor="@color/panker_color"
+        android:textSize="18sp" />
+
+</RelativeLayout>

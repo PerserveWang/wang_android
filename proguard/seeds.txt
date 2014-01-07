@@ -1,0 +1,515 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+cn.wiz.sdk.api.WizEventsCenter$WizDatabaseObjectType: cn.wiz.sdk.api.WizEventsCenter$WizDatabaseObjectType[] values()
+cn.wiz.sdk.api.WizEventsCenter$WizDatabaseObjectType: cn.wiz.sdk.api.WizEventsCenter$WizDatabaseObjectType valueOf(java.lang.String)
+cn.wiz.sdk.api.WizEventsCenter$WizObjectSyncStatus: cn.wiz.sdk.api.WizEventsCenter$WizObjectSyncStatus[] values()
+cn.wiz.sdk.api.WizEventsCenter$WizObjectSyncStatus: cn.wiz.sdk.api.WizEventsCenter$WizObjectSyncStatus valueOf(java.lang.String)
+cn.wiz.sdk.api.WizEventsCenter$WizSyncKbStep: cn.wiz.sdk.api.WizEventsCenter$WizSyncKbStep[] values()
+cn.wiz.sdk.api.WizEventsCenter$WizSyncKbStep: cn.wiz.sdk.api.WizEventsCenter$WizSyncKbStep valueOf(java.lang.String)
+cn.wiz.sdk.api.WizLogger$LogType: cn.wiz.sdk.api.WizLogger$LogType[] values()
+cn.wiz.sdk.api.WizLogger$LogType: cn.wiz.sdk.api.WizLogger$LogType valueOf(java.lang.String)
+cn.wiz.sdk.api.WizObject$WizDataStatus: cn.wiz.sdk.api.WizObject$WizDataStatus[] values()
+cn.wiz.sdk.api.WizObject$WizDataStatus: cn.wiz.sdk.api.WizObject$WizDataStatus valueOf(java.lang.String)
+cn.wiz.sdk.api.WizStrings$WizStringId: cn.wiz.sdk.api.WizStrings$WizStringId[] values()
+cn.wiz.sdk.api.WizStrings$WizStringId: cn.wiz.sdk.api.WizStrings$WizStringId valueOf(java.lang.String)
+cn.wiz.sdk.db.WizDatabase$TableColumnType: cn.wiz.sdk.db.WizDatabase$TableColumnType[] values()
+cn.wiz.sdk.db.WizDatabase$TableColumnType: cn.wiz.sdk.db.WizDatabase$TableColumnType valueOf(java.lang.String)
+cn.wiz.sdk.settings.WizSystemSettings$DownloadDataType: cn.wiz.sdk.settings.WizSystemSettings$DownloadDataType[] values()
+cn.wiz.sdk.settings.WizSystemSettings$DownloadDataType: cn.wiz.sdk.settings.WizSystemSettings$DownloadDataType valueOf(java.lang.String)
+cn.wiz.sdk.settings.WizSystemSettings$HomePage: cn.wiz.sdk.settings.WizSystemSettings$HomePage[] values()
+cn.wiz.sdk.settings.WizSystemSettings$HomePage: cn.wiz.sdk.settings.WizSystemSettings$HomePage valueOf(java.lang.String)
+cn.wiz.sdk.util.FileUtil$FileType: cn.wiz.sdk.util.FileUtil$FileType[] values()
+cn.wiz.sdk.util.FileUtil$FileType: cn.wiz.sdk.util.FileUtil$FileType valueOf(java.lang.String)
+com.baidu.location.Jni
+com.baidu.location.Jni: java.lang.String a(byte[],int)
+com.baidu.location.Jni: java.lang.String b(double,double,int,int)
+com.trends.photoalbum.R$anim: int alpha
+com.trends.photoalbum.R$anim: int alpha_rotate
+com.trends.photoalbum.R$anim: int alpha_scale_translate
+com.trends.photoalbum.R$anim: int alpha_scale_translate_rotate
+com.trends.photoalbum.R$anim: int alpha_translate
+com.trends.photoalbum.R$anim: int app_name_anim
+com.trends.photoalbum.R$anim: int bottom_alpha
+com.trends.photoalbum.R$anim: int bottom_alpha_translate
+com.trends.photoalbum.R$anim: int icon_ainm
+com.trends.photoalbum.R$anim: int in_anim
+com.trends.photoalbum.R$anim: int myown_design
+com.trends.photoalbum.R$anim: int out_anim
+com.trends.photoalbum.R$anim: int scale
+com.trends.photoalbum.R$anim: int slide_down_out
+com.trends.photoalbum.R$anim: int slide_up_in
+com.trends.photoalbum.R$anim: int top_alpha_translate
+com.trends.photoalbum.R$array: int plantes
+com.trends.photoalbum.R$color: int about_color
+com.trends.photoalbum.R$color: int about_title
+com.trends.photoalbum.R$color: int bacgroud
+com.trends.photoalbum.R$color: int bg_color
+com.trends.photoalbum.R$color: int bg_color_deep
+com.trends.photoalbum.R$color: int black
+com.trends.photoalbum.R$color: int black_half
+com.trends.photoalbum.R$color: int black_transparent
+com.trends.photoalbum.R$color: int blue
+com.trends.photoalbum.R$color: int gray
+com.trends.photoalbum.R$color: int homepage_name_text_bg
+com.trends.photoalbum.R$color: int homepage_title_bg
+com.trends.photoalbum.R$color: int homepage_type_text_bg
+com.trends.photoalbum.R$color: int no_color
+com.trends.photoalbum.R$color: int opustitle
+com.trends.photoalbum.R$color: int panker_color
+com.trends.photoalbum.R$color: int powerby_bg_color
+com.trends.photoalbum.R$color: int powerby_text_color
+com.trends.photoalbum.R$color: int recommend_bac
+com.trends.photoalbum.R$color: int tab_nocolor
+com.trends.photoalbum.R$color: int text_color
+com.trends.photoalbum.R$color: int top_bar_bg
+com.trends.photoalbum.R$color: int white
+com.trends.photoalbum.R$drawable: int ablumname
+com.trends.photoalbum.R$drawable: int about
+com.trends.photoalbum.R$drawable: int about_slecte
+com.trends.photoalbum.R$drawable: int activity
+com.trends.photoalbum.R$drawable: int arrow
+com.trends.photoalbum.R$drawable: int article_bac
+com.trends.photoalbum.R$drawable: int articleshare
+com.trends.photoalbum.R$drawable: int asda
+com.trends.photoalbum.R$drawable: int bac_title
+com.trends.photoalbum.R$drawable: int back
+com.trends.photoalbum.R$drawable: int bg
+com.trends.photoalbum.R$drawable: int call
+com.trends.photoalbum.R$drawable: int call_slecte
+com.trends.photoalbum.R$drawable: int dialog_style_xml_color
+com.trends.photoalbum.R$drawable: int display
+com.trends.photoalbum.R$drawable: int display_no_selected
+com.trends.photoalbum.R$drawable: int display_selected
+com.trends.photoalbum.R$drawable: int display_switch_selector
+com.trends.photoalbum.R$drawable: int double_column_no_selected
+com.trends.photoalbum.R$drawable: int double_column_selected
+com.trends.photoalbum.R$drawable: int doublecolumn_swtich_selector
+com.trends.photoalbum.R$drawable: int eeeee
+com.trends.photoalbum.R$drawable: int email_icon
+com.trends.photoalbum.R$drawable: int ffffff
+com.trends.photoalbum.R$drawable: int first_title
+com.trends.photoalbum.R$drawable: int friends_icon
+com.trends.photoalbum.R$drawable: int ggggg
+com.trends.photoalbum.R$drawable: int gread
+com.trends.photoalbum.R$drawable: int gread_gread
+com.trends.photoalbum.R$drawable: int gread_slecte
+com.trends.photoalbum.R$drawable: int gread_tel_bac
+com.trends.photoalbum.R$drawable: int head_default
+com.trends.photoalbum.R$drawable: int homepage
+com.trends.photoalbum.R$drawable: int ic_launcher
+com.trends.photoalbum.R$drawable: int icon
+com.trends.photoalbum.R$drawable: int left_logo
+com.trends.photoalbum.R$drawable: int line_diviver
+com.trends.photoalbum.R$drawable: int lineralayout_bg
+com.trends.photoalbum.R$drawable: int logo
+com.trends.photoalbum.R$drawable: int main
+com.trends.photoalbum.R$drawable: int more_icon
+com.trends.photoalbum.R$drawable: int new_activity
+com.trends.photoalbum.R$drawable: int new_activity_slecte
+com.trends.photoalbum.R$drawable: int on_about
+com.trends.photoalbum.R$drawable: int on_activity
+com.trends.photoalbum.R$drawable: int on_call
+com.trends.photoalbum.R$drawable: int on_gread
+com.trends.photoalbum.R$drawable: int on_new_activity
+com.trends.photoalbum.R$drawable: int on_recommend
+com.trends.photoalbum.R$drawable: int on_share
+com.trends.photoalbum.R$drawable: int on_tel
+com.trends.photoalbum.R$drawable: int opus
+com.trends.photoalbum.R$drawable: int pop_background
+com.trends.photoalbum.R$drawable: int pull_down
+com.trends.photoalbum.R$drawable: int qq_icon
+com.trends.photoalbum.R$drawable: int ratingbar
+com.trends.photoalbum.R$drawable: int ratingbar_bac
+com.trends.photoalbum.R$drawable: int ratingbars
+com.trends.photoalbum.R$drawable: int recommend
+com.trends.photoalbum.R$drawable: int recommend_q
+com.trends.photoalbum.R$drawable: int recommend_slecte
+com.trends.photoalbum.R$drawable: int series
+com.trends.photoalbum.R$drawable: int shade_bg
+com.trends.photoalbum.R$drawable: int share
+com.trends.photoalbum.R$drawable: int share_album
+com.trends.photoalbum.R$drawable: int share_bac
+com.trends.photoalbum.R$drawable: int share_slecte
+com.trends.photoalbum.R$drawable: int sharecut
+com.trends.photoalbum.R$drawable: int sina_icon
+com.trends.photoalbum.R$drawable: int single_no_selected
+com.trends.photoalbum.R$drawable: int single_selected
+com.trends.photoalbum.R$drawable: int singlecolumn_swtich_selector
+com.trends.photoalbum.R$drawable: int sliding_switch_no_selected
+com.trends.photoalbum.R$drawable: int sliding_switch_selected
+com.trends.photoalbum.R$drawable: int sliding_swtich_selector
+com.trends.photoalbum.R$drawable: int solid_divider_ccc
+com.trends.photoalbum.R$drawable: int solid_divider_fff
+com.trends.photoalbum.R$drawable: int submit
+com.trends.photoalbum.R$drawable: int tab_no
+com.trends.photoalbum.R$drawable: int tab_opus
+com.trends.photoalbum.R$drawable: int tab_series
+com.trends.photoalbum.R$drawable: int tab_title
+com.trends.photoalbum.R$drawable: int tel
+com.trends.photoalbum.R$drawable: int telphone
+com.trends.photoalbum.R$drawable: int text_bac
+com.trends.photoalbum.R$drawable: int type
+com.trends.photoalbum.R$drawable: int unratingbar
+com.trends.photoalbum.R$drawable: int username
+com.trends.photoalbum.R$drawable: int username_img
+com.trends.photoalbum.R$drawable: int viewpager_display
+com.trends.photoalbum.R$drawable: int viewpager_display_selected
+com.trends.photoalbum.R$drawable: int viewpager_display_switch_selector
+com.trends.photoalbum.R$drawable: int viewpager_share
+com.trends.photoalbum.R$drawable: int viewpager_share_selected
+com.trends.photoalbum.R$drawable: int viewpager_share_switch_selector
+com.trends.photoalbum.R$drawable: int weixin_icon
+com.trends.photoalbum.R$drawable: int welcome_bac
+com.trends.photoalbum.R$drawable: int white
+com.trends.photoalbum.R$id: int advantage1
+com.trends.photoalbum.R$id: int advantage2
+com.trends.photoalbum.R$id: int advantage3
+com.trends.photoalbum.R$id: int advantage4
+com.trends.photoalbum.R$id: int advantage5
+com.trends.photoalbum.R$id: int appName
+com.trends.photoalbum.R$id: int arrow
+com.trends.photoalbum.R$id: int article_L
+com.trends.photoalbum.R$id: int article_LL
+com.trends.photoalbum.R$id: int article_R1
+com.trends.photoalbum.R$id: int article_abstract
+com.trends.photoalbum.R$id: int article_back
+com.trends.photoalbum.R$id: int article_bm
+com.trends.photoalbum.R$id: int article_share
+com.trends.photoalbum.R$id: int article_title
+com.trends.photoalbum.R$id: int article_title_tv
+com.trends.photoalbum.R$id: int article_webview
+com.trends.photoalbum.R$id: int back
+com.trends.photoalbum.R$id: int btn_grade_send
+com.trends.photoalbum.R$id: int call
+com.trends.photoalbum.R$id: int center_frame
+com.trends.photoalbum.R$id: int description
+com.trends.photoalbum.R$id: int email
+com.trends.photoalbum.R$id: int friends
+com.trends.photoalbum.R$id: int grade_R1
+com.trends.photoalbum.R$id: int grade_back
+com.trends.photoalbum.R$id: int grade_ratingBar1
+com.trends.photoalbum.R$id: int grade_ratingBar2
+com.trends.photoalbum.R$id: int grade_ratingBar3
+com.trends.photoalbum.R$id: int grade_ratingBar4
+com.trends.photoalbum.R$id: int grade_textview
+com.trends.photoalbum.R$id: int grade_tv
+com.trends.photoalbum.R$id: int grade_tv2
+com.trends.photoalbum.R$id: int grade_tv3
+com.trends.photoalbum.R$id: int grade_tv4
+com.trends.photoalbum.R$id: int gread
+com.trends.photoalbum.R$id: int gread_RS1
+com.trends.photoalbum.R$id: int gread_RS2
+com.trends.photoalbum.R$id: int gread_RS3
+com.trends.photoalbum.R$id: int gread_RS4
+com.trends.photoalbum.R$id: int gread_et
+com.trends.photoalbum.R$id: int gread_tel
+com.trends.photoalbum.R$id: int gread_tel_L
+com.trends.photoalbum.R$id: int image
+com.trends.photoalbum.R$id: int imgIcon
+com.trends.photoalbum.R$id: int introduce
+com.trends.photoalbum.R$id: int left_L
+com.trends.photoalbum.R$id: int left_L1
+com.trends.photoalbum.R$id: int left_L2
+com.trends.photoalbum.R$id: int left_R
+com.trends.photoalbum.R$id: int left_frame
+com.trends.photoalbum.R$id: int linearLayout1
+com.trends.photoalbum.R$id: int logo_iv_id
+com.trends.photoalbum.R$id: int logo_web_tv_id
+com.trends.photoalbum.R$id: int mlist
+com.trends.photoalbum.R$id: int more
+com.trends.photoalbum.R$id: int new_activity
+com.trends.photoalbum.R$id: int new_activity_back
+com.trends.photoalbum.R$id: int new_activity_lv
+com.trends.photoalbum.R$id: int new_activity_tel
+com.trends.photoalbum.R$id: int new_activity_title
+com.trends.photoalbum.R$id: int new_activity_tv
+com.trends.photoalbum.R$id: int opus_img
+com.trends.photoalbum.R$id: int opus_tx
+com.trends.photoalbum.R$id: int own_advantage
+com.trends.photoalbum.R$id: int pager
+com.trends.photoalbum.R$id: int panker_name
+com.trends.photoalbum.R$id: int panker_web
+com.trends.photoalbum.R$id: int pic_item_play_iv_id
+com.trends.photoalbum.R$id: int pic_item_share_iv_id
+com.trends.photoalbum.R$id: int pic_relative
+com.trends.photoalbum.R$id: int pic_viewpager_bottom_bar
+com.trends.photoalbum.R$id: int picture_item_iv_id
+com.trends.photoalbum.R$id: int picture_viewPager_id
+com.trends.photoalbum.R$id: int play_switch_column_id
+com.trends.photoalbum.R$id: int play_switch_iv_id
+com.trends.photoalbum.R$id: int powerby_back
+com.trends.photoalbum.R$id: int powerby_title
+com.trends.photoalbum.R$id: int progressBar1
+com.trends.photoalbum.R$id: int progress_bar
+com.trends.photoalbum.R$id: int pull_to_refresh_head
+com.trends.photoalbum.R$id: int qq
+com.trends.photoalbum.R$id: int recomend_userch
+com.trends.photoalbum.R$id: int recommend
+com.trends.photoalbum.R$id: int recommend_R
+com.trends.photoalbum.R$id: int recommend_R1
+com.trends.photoalbum.R$id: int recommend_back
+com.trends.photoalbum.R$id: int recommend_et_name
+com.trends.photoalbum.R$id: int recommend_et_telphone
+com.trends.photoalbum.R$id: int recommend_img
+com.trends.photoalbum.R$id: int recommend_msg
+com.trends.photoalbum.R$id: int recommend_name
+com.trends.photoalbum.R$id: int recommend_sp_type
+com.trends.photoalbum.R$id: int recommend_submit
+com.trends.photoalbum.R$id: int recommend_telphone
+com.trends.photoalbum.R$id: int recommend_tv_type
+com.trends.photoalbum.R$id: int recommend_tx
+com.trends.photoalbum.R$id: int recommend_type
+com.trends.photoalbum.R$id: int recommend_user
+com.trends.photoalbum.R$id: int recommend_user1
+com.trends.photoalbum.R$id: int recommend_user2
+com.trends.photoalbum.R$id: int recommend_users
+com.trends.photoalbum.R$id: int refreshable_view
+com.trends.photoalbum.R$id: int satisfaction
+com.trends.photoalbum.R$id: int series_img
+com.trends.photoalbum.R$id: int series_tx
+com.trends.photoalbum.R$id: int share
+com.trends.photoalbum.R$id: int share_layout
+com.trends.photoalbum.R$id: int shop_about
+com.trends.photoalbum.R$id: int shop_about_lv
+com.trends.photoalbum.R$id: int shop_about_title
+com.trends.photoalbum.R$id: int shop_opus_lv
+com.trends.photoalbum.R$id: int shop_seeries_lv
+com.trends.photoalbum.R$id: int slidingMenu
+com.trends.photoalbum.R$id: int sliding_switch_iv_id
+com.trends.photoalbum.R$id: int tabhost_back
+com.trends.photoalbum.R$id: int tabhost_call
+com.trends.photoalbum.R$id: int textView1
+com.trends.photoalbum.R$id: int text_img
+com.trends.photoalbum.R$id: int text_img2
+com.trends.photoalbum.R$id: int text_img3
+com.trends.photoalbum.R$id: int text_img4
+com.trends.photoalbum.R$id: int top_bar_relative
+com.trends.photoalbum.R$id: int updated_at
+com.trends.photoalbum.R$id: int waterfall_container
+com.trends.photoalbum.R$id: int waterfall_image
+com.trends.photoalbum.R$id: int waterfall_scroll
+com.trends.photoalbum.R$id: int weibo
+com.trends.photoalbum.R$id: int xiala
+com.trends.photoalbum.R$layout: int article
+com.trends.photoalbum.R$layout: int article_style
+com.trends.photoalbum.R$layout: int center_frame
+com.trends.photoalbum.R$layout: int grade
+com.trends.photoalbum.R$layout: int left
+com.trends.photoalbum.R$layout: int left_frame
+com.trends.photoalbum.R$layout: int line
+com.trends.photoalbum.R$layout: int main
+com.trends.photoalbum.R$layout: int new_activity
+com.trends.photoalbum.R$layout: int opus_style
+com.trends.photoalbum.R$layout: int page1
+com.trends.photoalbum.R$layout: int picture_item
+com.trends.photoalbum.R$layout: int picture_viewpagaer
+com.trends.photoalbum.R$layout: int play_picture
+com.trends.photoalbum.R$layout: int powerby_layout
+com.trends.photoalbum.R$layout: int pull_to_refresh
+com.trends.photoalbum.R$layout: int recommend
+com.trends.photoalbum.R$layout: int series_style
+com.trends.photoalbum.R$layout: int share
+com.trends.photoalbum.R$layout: int shop_about
+com.trends.photoalbum.R$layout: int shop_opus
+com.trends.photoalbum.R$layout: int shop_series
+com.trends.photoalbum.R$layout: int tab_opus
+com.trends.photoalbum.R$layout: int tab_series
+com.trends.photoalbum.R$layout: int tabhost
+com.trends.photoalbum.R$layout: int view_pager
+com.trends.photoalbum.R$layout: int waterfallitem
+com.trends.photoalbum.R$layout: int welcome
+com.trends.photoalbum.R$string: int advantage
+com.trends.photoalbum.R$string: int advantage1
+com.trends.photoalbum.R$string: int advantage2
+com.trends.photoalbum.R$string: int advantage3
+com.trends.photoalbum.R$string: int advantage4
+com.trends.photoalbum.R$string: int advantage5
+com.trends.photoalbum.R$string: int app_name
+com.trends.photoalbum.R$string: int call_panker
+com.trends.photoalbum.R$string: int call_tel
+com.trends.photoalbum.R$string: int cameraman
+com.trends.photoalbum.R$string: int dresser
+com.trends.photoalbum.R$string: int effect
+com.trends.photoalbum.R$string: int email
+com.trends.photoalbum.R$string: int email_share
+com.trends.photoalbum.R$string: int error_message_file_not_fount
+com.trends.photoalbum.R$string: int friends
+com.trends.photoalbum.R$string: int grade
+com.trends.photoalbum.R$string: int gread_greadtext
+com.trends.photoalbum.R$string: int gread_telphone
+com.trends.photoalbum.R$string: int helanduo_web
+com.trends.photoalbum.R$string: int helanduo_web_url
+com.trends.photoalbum.R$string: int hello_world
+com.trends.photoalbum.R$string: int introduce
+com.trends.photoalbum.R$string: int invate
+com.trends.photoalbum.R$string: int menu_settings
+com.trends.photoalbum.R$string: int more
+com.trends.photoalbum.R$string: int new_activity
+com.trends.photoalbum.R$string: int noshare_text
+com.trends.photoalbum.R$string: int not_updated_yet
+com.trends.photoalbum.R$string: int ok
+com.trends.photoalbum.R$string: int panker
+com.trends.photoalbum.R$string: int panker_name
+com.trends.photoalbum.R$string: int panker_web
+com.trends.photoalbum.R$string: int personrecommend
+com.trends.photoalbum.R$string: int picture_viewpager_share
+com.trends.photoalbum.R$string: int pow_panker
+com.trends.photoalbum.R$string: int power
+com.trends.photoalbum.R$string: int prompt_network_not_available
+com.trends.photoalbum.R$string: int pull_to_refresh
+com.trends.photoalbum.R$string: int qq
+com.trends.photoalbum.R$string: int recommend
+com.trends.photoalbum.R$string: int recommend_name
+com.trends.photoalbum.R$string: int recommend_recommend
+com.trends.photoalbum.R$string: int recommend_sex
+com.trends.photoalbum.R$string: int recommend_telphone
+com.trends.photoalbum.R$string: int recommend_type
+com.trends.photoalbum.R$string: int refreshing
+com.trends.photoalbum.R$string: int release_to_refresh
+com.trends.photoalbum.R$string: int satisfaction
+com.trends.photoalbum.R$string: int service
+com.trends.photoalbum.R$string: int share_app
+com.trends.photoalbum.R$string: int shop
+com.trends.photoalbum.R$string: int shop_about
+com.trends.photoalbum.R$string: int sina_weibo
+com.trends.photoalbum.R$string: int time_error
+com.trends.photoalbum.R$string: int updated_at
+com.trends.photoalbum.R$string: int updated_just_now
+com.trends.photoalbum.R$string: int wei_chat_friendline
+com.trends.photoalbum.R$string: int weibo
+com.trends.photoalbum.R$string: int weixin
+com.trends.photoalbum.R$string: int yiyou
+com.trends.photoalbum.R$style: int AppBaseTheme
+com.trends.photoalbum.R$style: int AppTheme
+com.trends.photoalbum.R$style: int roomRatingBar
+com.trends.photoalbum.activity.Article_Activity
+com.trends.photoalbum.activity.Article_Activity: Article_Activity()
+com.trends.photoalbum.activity.Article_Activity: void setZoomControlGone(android.view.View)
+com.trends.photoalbum.activity.Article_Activity: void onClick(android.view.View)
+com.trends.photoalbum.activity.DisplayImagesActivity
+com.trends.photoalbum.activity.DisplayImagesActivity: DisplayImagesActivity()
+com.trends.photoalbum.activity.Gread_Activity
+com.trends.photoalbum.activity.Gread_Activity: Gread_Activity()
+com.trends.photoalbum.activity.Gread_Activity: void onClick(android.view.View)
+com.trends.photoalbum.activity.Main_Activity
+com.trends.photoalbum.activity.Main_Activity: Main_Activity()
+com.trends.photoalbum.activity.New_Activity
+com.trends.photoalbum.activity.New_Activity: New_Activity()
+com.trends.photoalbum.activity.PictureShowActivity
+com.trends.photoalbum.activity.PictureShowActivity: PictureShowActivity()
+com.trends.photoalbum.activity.PowerByActivity
+com.trends.photoalbum.activity.PowerByActivity: PowerByActivity()
+com.trends.photoalbum.activity.PowerByActivity: void onClick(android.view.View)
+com.trends.photoalbum.activity.Recommend_Activity
+com.trends.photoalbum.activity.Recommend_Activity: Recommend_Activity()
+com.trends.photoalbum.activity.Recommend_Activity: void onClick(android.view.View)
+com.trends.photoalbum.activity.RefreshableView
+com.trends.photoalbum.activity.RefreshableView: RefreshableView(android.content.Context,android.util.AttributeSet)
+com.trends.photoalbum.activity.RefreshableView: void setIsAbleToPull(android.view.MotionEvent)
+com.trends.photoalbum.activity.ShopOpus_Activity
+com.trends.photoalbum.activity.ShopOpus_Activity: ShopOpus_Activity()
+com.trends.photoalbum.activity.ShopSeries_Activity
+com.trends.photoalbum.activity.ShopSeries_Activity: ShopSeries_Activity()
+com.trends.photoalbum.activity.TabHost
+com.trends.photoalbum.activity.TabHost: TabHost()
+com.trends.photoalbum.activity.TabHost: void onClick(android.view.View)
+com.trends.photoalbum.activity.WelcomeActivity
+com.trends.photoalbum.activity.WelcomeActivity: WelcomeActivity()
+com.trends.photoalbum.utils.MyApplicationInfo
+com.trends.photoalbum.utils.MyApplicationInfo: MyApplicationInfo()
+com.trends.photoalbum.view.HackyViewPager
+com.trends.photoalbum.view.HackyViewPager: HackyViewPager(android.content.Context)
+com.trends.photoalbum.view.HackyViewPager: HackyViewPager(android.content.Context,android.util.AttributeSet)
+com.trends.photoalbum.view.MyScrollView
+com.trends.photoalbum.view.MyScrollView: MyScrollView(android.content.Context)
+com.trends.photoalbum.view.MyScrollView: MyScrollView(android.content.Context,android.util.AttributeSet)
+com.trends.photoalbum.view.MyScrollView: MyScrollView(android.content.Context,android.util.AttributeSet,int)
+com.trends.photoalbum.view.MyScrollView: void getView()
+com.trends.photoalbum.view.MyScrollView: void setOnScrollListener(com.trends.photoalbum.view.MyScrollView$OnScrollListener)
+com.trends.photoalbum.view.SlidingMenu
+com.trends.photoalbum.view.SlidingMenu: SlidingMenu(android.content.Context)
+com.trends.photoalbum.view.SlidingMenu: SlidingMenu(android.content.Context,android.util.AttributeSet)
+com.trends.photoalbum.view.SlidingMenu: SlidingMenu(android.content.Context,android.util.AttributeSet,int)
+com.trends.photoalbum.view.SlidingMenu: void setLeftView(android.view.View)
+com.trends.photoalbum.view.SlidingMenu: void setCenterView(android.view.View)
+com.trends.photoalbum.view.SlidingMenu: int getMenuViewWidth()
+com.trends.photoalbum.view.SlidingMenu: int getDetailViewWidth()
+com.trends.photoalbum.waterfalltool.LazyScrollView: void getView()
+com.trends.photoalbum.waterfalltool.LazyScrollView: void setOnScrollListener(com.trends.photoalbum.waterfalltool.LazyScrollView$OnScrollListener)
+uk.co.senab.photoview.PhotoView
+uk.co.senab.photoview.PhotoView: PhotoView(android.content.Context)
+uk.co.senab.photoview.PhotoView: PhotoView(android.content.Context,android.util.AttributeSet)
+uk.co.senab.photoview.PhotoView: PhotoView(android.content.Context,android.util.AttributeSet,int)
+uk.co.senab.photoview.PhotoView: void setPhotoViewRotation(float)
+uk.co.senab.photoview.PhotoView: android.graphics.RectF getDisplayRect()
+uk.co.senab.photoview.PhotoView: android.graphics.Matrix getDisplayMatrix()
+uk.co.senab.photoview.PhotoView: float getMinScale()
+uk.co.senab.photoview.PhotoView: float getMinimumScale()
+uk.co.senab.photoview.PhotoView: float getMidScale()
+uk.co.senab.photoview.PhotoView: float getMediumScale()
+uk.co.senab.photoview.PhotoView: float getMaxScale()
+uk.co.senab.photoview.PhotoView: float getMaximumScale()
+uk.co.senab.photoview.PhotoView: float getScale()
+uk.co.senab.photoview.PhotoView: android.widget.ImageView$ScaleType getScaleType()
+uk.co.senab.photoview.PhotoView: void setAllowParentInterceptOnEdge(boolean)
+uk.co.senab.photoview.PhotoView: void setMinScale(float)
+uk.co.senab.photoview.PhotoView: void setMinimumScale(float)
+uk.co.senab.photoview.PhotoView: void setMidScale(float)
+uk.co.senab.photoview.PhotoView: void setMediumScale(float)
+uk.co.senab.photoview.PhotoView: void setMaxScale(float)
+uk.co.senab.photoview.PhotoView: void setMaximumScale(float)
+uk.co.senab.photoview.PhotoView: void setImageDrawable(android.graphics.drawable.Drawable)
+uk.co.senab.photoview.PhotoView: void setImageResource(int)
+uk.co.senab.photoview.PhotoView: void setImageURI(android.net.Uri)
+uk.co.senab.photoview.PhotoView: void setOnMatrixChangeListener(uk.co.senab.photoview.PhotoViewAttacher$OnMatrixChangedListener)
+uk.co.senab.photoview.PhotoView: void setOnLongClickListener(android.view.View$OnLongClickListener)
+uk.co.senab.photoview.PhotoView: void setOnPhotoTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener)
+uk.co.senab.photoview.PhotoView: void setOnViewTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener)
+uk.co.senab.photoview.PhotoView: void setScale(float)
+uk.co.senab.photoview.PhotoView: void setScaleType(android.widget.ImageView$ScaleType)
+uk.co.senab.photoview.PhotoView: void setZoomable(boolean)
